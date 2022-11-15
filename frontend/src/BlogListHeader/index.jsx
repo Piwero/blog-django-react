@@ -7,3 +7,5 @@ const CategoryTitle = ()=>{
         </div>
     )
 };
+
+export default CategoryTitle;
