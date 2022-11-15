@@ -1,7 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React, { useState } from 'react'
+import reactLogo from '../../assets/react.svg'
+import viteLogo from "../../assets/vite.svg"
 import './App.css'
-import Footer from "./Footer/index.jsx";
+import Footer from "../../components/Footer/index.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,10 +10,10 @@ function App() {
   return (
     <div className="App">
       <div className = "flex pl-20">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+        <a href="https://vitejs.dev" target="#">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
+        <a href="https://reactjs.org" target="#">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
