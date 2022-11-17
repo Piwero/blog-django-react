@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import reactLogo from '../../assets/react.svg'
 import viteLogo from "../../assets/vite.svg"
 import './App.css'
-import Footer from "../../components/Footer/index.jsx";
+import Footer from "../../components/Footer/Footer.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
