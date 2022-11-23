@@ -10,3 +10,8 @@
     font-stretch: normal;
 }
 
+p {
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 400;
+}
