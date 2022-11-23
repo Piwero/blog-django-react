@@ -19,8 +19,6 @@ module.exports = {
             xl: `1280px`
         },
         fontFamily: {
-            serif: [`minion-pro, serif`],
-            sans: [`gill-sans-nova, sans-serif`],
             display:[`Fira Sans`, `sans-serif`]
         },
         extend: {
